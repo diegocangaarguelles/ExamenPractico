@@ -1,0 +1,17 @@
+create database encuesta;
+create table Formulario(
+  DescripcionEncuesta varchar(255),
+  TituloCampo varchar(255),
+  Requerido(s/n) varchar(5),
+  TextoCampo text,
+  NumeroCampo int primary key,
+  fecha int);
+  
+ insert into Formulario values('descripcion1', 'Titulo1', 's', 'texto aqui', 1, 2018);
+ insert into Formulario values('descripcion2', 'Titulo1', 'n', 'texto aqui', 2, 2019);
+ insert into Formulario values('descripcion3', 'Titulo1', 's', 'texto aqui', 3, 2020);
+ insert into Formulario values('descripcion4', 'Titulo1', 'n', 'texto aqui', 4, 2021);
+ insert into Formulario values('descripcion5', 'Titulo1', 's', 'texto aqui', 5, 2022);
+ 
+  
+  Select * from formulario;
