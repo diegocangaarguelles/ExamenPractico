@@ -8,10 +8,10 @@ create table Formulario(
   fecha int);
   
  insert into Formulario values('descripcion1', 'Titulo1', 's', 'texto aqui', 1, 2018);
- insert into Formulario values('descripcion2', 'Titulo1', 'n', 'texto aqui', 2, 2019);
- insert into Formulario values('descripcion3', 'Titulo1', 's', 'texto aqui', 3, 2020);
- insert into Formulario values('descripcion4', 'Titulo1', 'n', 'texto aqui', 4, 2021);
- insert into Formulario values('descripcion5', 'Titulo1', 's', 'texto aqui', 5, 2022);
+ insert into Formulario values('descripcion2', 'Titulo2', 'n', 'texto aqui', 2, 2019);
+ insert into Formulario values('descripcion3', 'Titulo3', 's', 'texto aqui', 3, 2020);
+ insert into Formulario values('descripcion4', 'Titulo4', 'n', 'texto aqui', 4, 2021);
+ insert into Formulario values('descripcion5', 'Titulo5', 's', 'texto aqui', 5, 2022);
  
   
   Select * from formulario;
